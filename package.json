@@ -12,6 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/bre30kra69cs/rogalik.git"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "keywords": [
     "common",
     "utils",
