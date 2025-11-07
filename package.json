@@ -1,7 +1,7 @@
 {
   "name": "rogalik",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Andrey Krasovksy <an.krasowsckij@gmail.com>",
   "homepage": "https://github.com/bre30kra69cs/rogalik#readme",
   "description": "Common utils and types",
@@ -24,7 +24,9 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "bump": "npx changeset",
+    "check": "tsc --noEmit"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
