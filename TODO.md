@@ -27,5 +27,19 @@
 - [ ] TASK-9 - types: Keyof
 
 - [ ] TASK-10 - lib: parse
+- - string
+- - number
+- - boolean
 
 - [ ] TASK-11 - lib: isBrowser
+
+- [ ] TASK-12 - lib: guard
+- - boolean
+- - rec
+- - ulx
+- - nlx
+- - nil
+
+- [ ] TASK-13 - lib: safeRun
+- - sync
+- - async
