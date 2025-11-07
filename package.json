@@ -1,0 +1,29 @@
+{
+  "name": "rogalik",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": "Andrey Krasovksy <an.krasowsckij@gmail.com>",
+  "homepage": "https://github.com/bre30kra69cs/rogalik#readme",
+  "description": "Common utils and types",
+  "bugs": {
+    "url": "https://github.com/bre30kra69cs/rogalik/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bre30kra69cs/rogalik.git"
+  },
+  "keywords": [
+    "common",
+    "utils",
+    "types"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  }
+}
